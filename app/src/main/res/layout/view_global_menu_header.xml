@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:background="@drawable/homeimage"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+>
+
+    <ImageView
+        android:contentDescription="Image for Profile Pic"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        tools:src="@drawable/unnamed"
+    />
+</RelativeLayout>
