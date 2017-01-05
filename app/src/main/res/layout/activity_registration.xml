@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_registration"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/unnamed"
+    tools:context="com.seals.shubham.placementportalvolley.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/layoutdrawable">
+
+
+        <EditText
+            android:id="@+id/RegName"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:hint="@string/Reg_hint_Name"
+            android:textSize="17sp"
+            android:maxLines="1"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="35sp"
+            android:padding="8dp"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="@dimen/activity_registration_margin_bottom"
+            android:textColorHint="@color/Reg_Input_Hint"
+            android:textColor="@color/Reg_Input"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/RegRegId"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:textColor="@color/Reg_Input"
+            android:hint="@string/Reg_hint_RegId"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="17sp"
+            android:textColorHint="@color/Reg_Input_Hint"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="@dimen/activity_registration_margin_bottom"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/RegPass"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:textColor="#3cee3322"
+            android:hint="@string/Reg_hint_Password"
+            android:inputType="textVisiblePassword"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:textColorHint="#cd34cd33"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/RegEmail"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:textColor="@color/Reg_Input"
+            android:hint="@string/Reg_hint_Email"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/Reg_Input_Hint"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/RegMob"
+            android:textColor="@color/Reg_Input"
+            android:textColorHint="@color/Reg_Input_Hint"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:inputType="number"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/Reg_hint_Mobile"
+            android:layout_gravity="center"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/RegBranch"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:textColor="@color/Reg_Input"
+            android:hint="@string/Reg_hint_Branch"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:inputType="textCapWords"
+            android:textColorHint="@color/Reg_Input_Hint"
+            android:background="@drawable/edittext"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/BtnReg"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttondrawable"
+            android:textColor="#ffffffff"
+            android:text="@string/Register"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/BtnLoginPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@null"
+            android:text="@string/LogIn_If_Registered"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
