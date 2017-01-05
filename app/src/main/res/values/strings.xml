@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">PlacementPortalVolley</string>
+    <string name="Register_Prompt">"Don't have an account? Sign Up"</string>
+    <string name="Log_In">Log In</string>
+    <string name="Exit">Exit</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_reg_id">Registeration Id</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="Exit_Prompt">Hey Fella!Really Wanna Check Out?</string>
+    <string name="Positive_Response">No</string>
+    <string name="Negative_Response">Yes</string>
+    <string name="InComplete_Form">Data in all the Fields are mandatory</string>
+    <string name="Reg_hint_Name">Full Name</string>
+    <string name="Reg_hint_RegId">Registration Id</string>
+    <string name="Reg_hint_Password">Password</string>
+    <string name="Reg_hint_Email">Email</string>
+    <string name="LogIn_If_Registered">Already Registered! Login Me.</string>
+    <string name="Register">Register</string>
+    <string name="Reg_hint_Mobile">Mobile</string>
+    <string name="Reg_hint_Branch">Branch</string>
+    <string name="Btn_Submit">Submit</string>
+    <string name="back_to_login">Back to Login Page</string>
+    <string name="Forget_Password_hint">Enter your Registration_Id to Change Passsword</string>
+    <string name="Btn_ReSend">RESEND</string>
+    <string name="Pass_Reset_hint">New Password</string>
+    <string name="Pass_Reset_hint_confirm">Confirm Password</string>
+    <string name="btn_password_reset">Change Password</string>
+    <string name="show_pass">Show Password</string>
+    <string name="pass_chnged">Password Changed Successfully..</string>
 </resources>
