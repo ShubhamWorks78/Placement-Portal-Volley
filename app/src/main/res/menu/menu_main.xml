@@ -15,4 +15,5 @@
     <item android:id="@+id/my_feed_str"
           android:title="@string/str_feed"
           android:visible="true"/>
+
 </menu>

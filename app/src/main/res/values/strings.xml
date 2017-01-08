@@ -27,4 +27,14 @@
     <string name="btn_password_reset">Change Password</string>
     <string name="show_pass">Show Password</string>
     <string name="pass_chnged">Password Changed Successfully..</string>
+    <string name="search_hint">Search SnapBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_feed">News Feed</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="logout_alert_title">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="alert_question_logout">Really wanna Leave?</string>
+    <string name="alert_postive_logout">Yes</string>
+    <string name="alert_negative_logout">No</string>
 </resources>

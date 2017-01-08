@@ -24,18 +24,24 @@
         </activity>
         <activity android:name=".ForgotPassword">
         </activity>
-        <activity android:name=".FeedActivity"
-                  android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".FeedActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.app.searchable"
-                android:resource="@xml/searchable"
-            />
+                android:resource="@xml/searchable"/>
         </activity>
         <activity android:name=".PasswordResettedAcknowledgement">
         </activity>
         <activity android:name=".AdminOrNormal">
         </activity>
         <activity android:name=".PasswordReset">
+        </activity>
+        <activity android:name=".UploadActivity">
+        </activity>
+        <activity android:name=".PlacementStats">
+        </activity>
+        <activity android:name=".About_Description">
         </activity>
     </application>
 
