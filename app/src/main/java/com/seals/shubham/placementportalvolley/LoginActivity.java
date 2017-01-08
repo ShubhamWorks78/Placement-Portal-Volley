@@ -120,13 +120,14 @@ public class LoginActivity extends AppCompatActivity {
                                     String Regis_Id = object.getString("Registration_Id");
                                     String passwo = object.getString("Password");
                                     if(Reg_Id.equals(Regis_Id) && passW.equals(passwo)){
-                                        Intent intent = new Intent(LoginActivity.this,AdminOrNormal.class);
+                                        Intent intent = new Intent(LoginActivity.this,FeedActivity.class);
                                         startActivity(intent);
                                     }
                                 }catch (Exception e){
                                     Toast.makeText(getApplicationContext(),e.toString(),Toast.LENGTH_LONG).show();
                                 }
                             }
+                            pd.dismiss();
                         }
                     }, new Response.ErrorListener() {
                         @Override
